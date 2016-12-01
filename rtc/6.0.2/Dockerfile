@@ -13,5 +13,3 @@ RUN echo ${JAVA_HOME}
 ADD resources/scm.tar.gz ${BIN}
 
 ENV PATH ${BIN}/scm:$PATH
-
-RUN lscm --version
